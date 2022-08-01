@@ -1,3 +1,11 @@
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
 .App {
   text-align: center;
 }
@@ -28,11 +36,18 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button {
+  margin-left: 557px;
+
+  height: 45px;
+  width: 175px;
+
+  background-color: white;
+  border-radius: 10px;  
+
+  color: black;
+  font-size: large;
+  font-weight: 600;
+
+  cursor: pointer;
 }

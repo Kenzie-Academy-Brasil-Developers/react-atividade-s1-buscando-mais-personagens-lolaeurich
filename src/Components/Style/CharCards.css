@@ -4,8 +4,24 @@
 
 .alive {
     background-color: green;
+    border-radius: 5px;
 }
 
 .dead {
     background-color: red;
+    border-radius: 5px;
+}
+
+.Name {
+    text-align: center;
+    font-size: x-large;
+    color: beige;
+}
+
+.Status {
+    text-align: center;
+}
+
+.Image {
+    padding: 0 0 5px 0;
 }

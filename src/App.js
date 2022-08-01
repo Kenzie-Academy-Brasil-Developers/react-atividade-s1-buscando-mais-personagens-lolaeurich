@@ -1,6 +1,8 @@
 import {useEffect, useState} from "react";
 import { Characters } from "./Components/Characters";
 
+import "./App.css"
+
 function App() {
 
     const [requestData, setRequestData] = useState({})
@@ -31,9 +33,11 @@ function App() {
     }
 
   return (
-    <div>
+    <div className="DivButton">
         <Characters characterList={characters}/>
-        <button onClick={handlePageUpdate} > PROXIMA PAGINA </button>
+        <button className="Button"
+        onClick={handlePageUpdate}>PRÓXIMA PAGINA
+        </button>
     </div>
   );
 }
