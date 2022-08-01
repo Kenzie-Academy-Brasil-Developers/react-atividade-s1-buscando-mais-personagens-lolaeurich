@@ -1,0 +1,11 @@
+.card-container {
+    margin: 10px;
+}
+
+.alive {
+    background-color: green;
+}
+
+.dead {
+    background-color: red;
+}
